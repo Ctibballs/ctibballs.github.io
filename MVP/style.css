@@ -1,3 +1,6 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 header {
 	min-height: 500px;
 	color: #ffffff;
@@ -42,7 +45,6 @@ nav .brand-logo {
 }
 .contact-us-tile span {
 	text-decoration: underline;
-	text-decoration-color: #00E8AA;
 }
 .how-it-works h3,p{
 	text-align: center;
@@ -58,4 +60,7 @@ nav .brand-logo {
 }
 .card-panel {
 	height: 200px;
+}
+input, textarea {
+	background: #ffffff !important;
 }
