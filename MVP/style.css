@@ -17,7 +17,7 @@ header .btn-sign-up {
 	text-transform: uppercase;
 }
 header p {
-	width: 550px;
+	max-width: 550px;
 	line-height: 2em;
 	font-size: 1.3em;
 	margin: auto;
@@ -38,8 +38,9 @@ footer {
 	min-height: 400px;
 	color: #ffffff;
 }
-footer a {
+footer a, p {
 	color: #ffffff;
+	line-height: 2em;
 }
 .btn-sign-up {
     color: #000026;
@@ -113,8 +114,8 @@ input, textarea {
 	margin-bottom: 0px;
 }
 #jobseeker-sign-up {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 #employer-sign-up {
-	margin-top: 40px;
+	margin-top: 30px;
 }
