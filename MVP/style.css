@@ -11,19 +11,37 @@ header h3 {
 	padding: 1.46rem 0 1.168rem 0;
 	font-weight: 300;
 }
+header .btn-sign-up {
+	margin: 20px;
+	max-width: 250px;
+	text-transform: uppercase;
+}
+header p {
+	width: 550px;
+	line-height: 2em;
+	font-size: 1.3em;
+	margin: auto;
+}
+header img {
+	height: 300px;
+	margin: 0 5%;
+}
 nav {
 	background: #0000FF;
 	box-shadow: none;
 }
 nav .btn-sign-up {
 	margin: 1.5em !important;
+	text-transform: uppercase;
 }
 footer {
 	min-height: 400px;
 	color: #ffffff;
 }
+footer a {
+	color: #ffffff;
+}
 .btn-sign-up {
-    background: #00E8AA;
     color: #000026;
     border-radius: 25px;
     font-weight: 700;
@@ -40,8 +58,16 @@ nav .brand-logo {
 .how-it-works {
 	min-height: 400px;
 }
+.how-it-works hr {
+	width: 100px;
+}
 .contact-us {
 	min-height: 400px;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+.contact-us-tile {
+	margin: 2em;
 }
 .contact-us-tile span {
 	text-decoration: underline;
@@ -54,13 +80,27 @@ nav .brand-logo {
 }
 .blue {
 	background: #0000FF !important;
+	color: #ffffff;
 }
 .black {
 	background: #000026 !important;
+	color: #ffffff;
 }
 .card-panel {
-	height: 200px;
+	height: 180px;
+	margin-top: 70px; 
 }
 input, textarea {
 	background: #ffffff !important;
+	color: #000000;
+}
+.btn-send {
+	border: none;
+	letter-spacing: .5px;
+	height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
 }

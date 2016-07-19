@@ -3,67 +3,137 @@
 <head>
 	<title>landing page</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<nav>
+		<nav class="blue">
+			<div class="container">
 				<a href="#" class="brand-logo left">SeeV</a>
 				<ul class="right hide-on-med-and-down">
 			    	<a class="waves-effect waves-light btn-sign-up green">SIGN UP</a>
-			    </ul>			
+			    </ul>
+			</div>			
 		</nav>
 		<header class="blue">
-			
+			<div class="container">
 			<h3>Making employment easy</h3>
-			<p>blah blah blah</p>
-			<a class="waves-effect waves-light btn">find out when we go live</a>
+			<p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+			<a class="waves-effect waves-light btn-sign-up black">find out when we go live</a><br>
+			<img src="images/Male_01.svg" title="male" id="male">
+			<img src="images/Female_01.svg" title="female" id="female">
+			</div>
 		</header>
 		<div class="how-it-works">
-			<div class="row">
-		      <div class="col s12 m4">
-		        <div class="card-panel green">
-		        </div>
-		        <h3>Simple to use</h3>
-		        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
-		      	</div>
-		      <div class="col s12 m4">
-		        <div class="card-panel blue">
-		        </div>
-		        <h3>Save time</h3>
-		        <p>Spending time trying to organize a excel spreadsheet to know when your staff can work? With seev you can update a staff members availability in seconds. Or they can update it themselves using our webapp.</p>
-		      </div>
-		      <div class="col s12 m4">
-		        <div class="card-panel black">
-		        </div>
-		        <h3>Simple to use</h3>
-		        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
-		      </div>
-		    </div>
+			<div class="container">
+				<div class="row">
+			      <div class="col s12 m4">
+			        <div class="card-panel green">
+			        </div>
+			        <hr>
+			        <h3>Simple to use</h3>
+			        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+			      	</div>
+			      <div class="col s12 m4">
+			        <div class="card-panel blue">
+			        </div>
+			        <hr>
+			        <h3>Save time</h3>
+			        <p>Spending time trying to organize a excel spreadsheet to know when your staff can work? With seev you can update a staff members availability in seconds. Or they can update it themselves using our webapp.</p>
+			      </div>
+			      <div class="col s12 m4">
+			        <div class="card-panel black">
+			        </div>
+			        <hr>
+			        <h3>Simple to use</h3>
+			        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+			      </div>
+			    </div>
+			</div>
 		</div>
 		<section class="contact-us row blue">
-			<div class="contact-us-tile col s12 m6">
+			<div class="container">
+			<div class="contact-us-tile col s12 m4">
 				<h5>Do you have any <span>questions?</span> <br>
 				Get in touch with us.</h5>
 				<form action="#">
 					<input type="text" name="First-Name" class="col s12 m6" placeholder="First Name">
 					<input type="text" name="Last-Name" class="col s12 m6" placeholder="Last Name">
 					<input type="email" name="Email" placeholder="Email">
-					<div class="mdl-textfield mdl-js-textfield">
-					   <textarea class="mdl-textfield__input" type="text" rows= "5" id="sample5" name="Comments" placeholder="Comment"></textarea>
+					<div class="input-field">
+						<textarea class="materialize-textarea col m12" type="text" rows= "5" id="sample5" name="Comments" placeholder="Comment"></textarea>
 	 				</div>
-	 				<button class="btn waves-effect waves-light" type="submit" name="action">SEND YOUR MESSAGE
-						<i class="material-icons right">send</i>
+	 				<button class="btn-send waves-effect waves-light col m12 black" type="submit" name="action">SEND YOUR MESSAGE
+						<i class="material-icons right">trending_flat</i>
 					</button>
 				</form>
 			</div>
+			</div>
 		</section>
 		<footer class="black">
-			
+			<div class="container">
+                <div class="row">
+                    <div class="col m4">
+                        <h3>SeeV</h3> 
+                    </div>
+                    <div class="col m4">
+                        <a type="button" class="btn-sign-up green" data-toggle="modal" data-target="#modal1">
+                            SIGN UP AS A JOBSEEKER
+						</a>
+                    </div>
+                    <div class="col m4">
+                        <a type="button" class="btn-sign-up blue" data-toggle="modal" data-target="#modal1">
+                            SIGN UP AS AN EMPLOYER
+						</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col m4"> 
+                    </div>
+                    <div class="col m4"> 
+                        <ul>
+                            <li>
+                                <a href="#">Jobseeker</a>
+                            </li>
+                            <li>
+                                <a href="#">Employer</a>
+                            </li>
+                            <li>
+                                <a href="#">Helping small business</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col m4">
+                        <ul>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Seev API</a>
+                            </li>
+                            <li>
+                                <a href="#">Press</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col m4">
+                        <p><span class="glyphicon glyphicon-copyright-mark"></span>
+                            2016 Seev Technology Inc.</p>
+                    </div>
+                    <div class="col m4">
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div class="col m4">
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>	
 		</footer>
-	</div>
 </body>
 </html>
