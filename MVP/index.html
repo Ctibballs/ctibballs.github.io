@@ -59,13 +59,13 @@
 				<h5>Do you have any <span>questions?</span> <br>
 				Get in touch with us.</h5>
 				<form action="#">
-					<input type="text" name="First-Name" class="col s12 m6" placeholder="First Name">
-					<input type="text" name="Last-Name" class="col s12 m6" placeholder="Last Name">
-					<input type="email" name="Email" placeholder="Email">
+					<input type="text" name="First-Name" class="col s12 m6" placeholder="First Name" id="first-name">
+					<input type="text" name="Last-Name" class="col s12 m6" placeholder="Last Name" id="last-name">
+					<input type="email" name="Email" class="col m12" placeholder="Email" id="email">
 					<div class="input-field">
-						<textarea class="materialize-textarea col m12" type="text" rows= "5" id="sample5" name="Comments" placeholder="Comment"></textarea>
+						<textarea class="materialize-textarea col m12" type="text" rows= "5" id="comments" name="Comments" placeholder="Comment"></textarea>
 	 				</div>
-	 				<button class="btn-send waves-effect waves-light col m12 black" type="submit" name="action">SEND YOUR MESSAGE
+	 				<button class="btn-send waves-effect waves-light col s12 black" type="submit" name="action">SEND YOUR MESSAGE
 						<i class="material-icons right">trending_flat</i>
 					</button>
 				</form>
@@ -78,12 +78,12 @@
                     <div class="col m4">
                         <h3>SeeV</h3> 
                     </div>
-                    <div class="col m4">
+                    <div class="col m4" id="jobseeker-sign-up">
                         <a type="button" class="btn-sign-up green" data-toggle="modal" data-target="#modal1">
                             SIGN UP AS A JOBSEEKER
 						</a>
                     </div>
-                    <div class="col m4">
+                    <div class="col m4" id="employer-sign-up">
                         <a type="button" class="btn-sign-up blue" data-toggle="modal" data-target="#modal1">
                             SIGN UP AS AN EMPLOYER
 						</a>
@@ -123,8 +123,7 @@
                 <hr>
                 <div class="row">
                     <div class="col m4">
-                        <p><span class="glyphicon glyphicon-copyright-mark"></span>
-                            2016 Seev Technology Inc.</p>
+                        <p><span class="glyphicon glyphicon-copyright-mark"></span>2016 Seev Technology Inc.</p>
                     </div>
                     <div class="col m4">
                         <a href="#">Privacy</a>

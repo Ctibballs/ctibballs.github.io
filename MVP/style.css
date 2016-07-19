@@ -104,3 +104,17 @@ input, textarea {
     text-transform: uppercase;
     vertical-align: middle;
 }
+#first-name {
+	border-right: 1px solid #E6E6E6;
+}
+#comments{
+	padding: 10px 10px;
+	height: 100px;
+	margin-bottom: 0px;
+}
+#jobseeker-sign-up {
+	margin-top: 40px;
+}
+#employer-sign-up {
+	margin-top: 40px;
+}
