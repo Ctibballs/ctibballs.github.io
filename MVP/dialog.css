@@ -1,0 +1,143 @@
+
+body {
+	background-color: #33adff;
+  font-family: 'Source Sans Pro', sans-serif;
+	/* Remove space around window edge */
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+/*
+The attributes below style the css
+property transitions.
+*/
+aside {
+  max-width: 500px;
+  padding: 50px;
+  height: 500px;
+  text-align: left;
+  line-height: 1.5em;
+}
+aside h5 {
+  color: #B3B3B3;
+}
+div {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  -webkit-transition-delay: 0s;
+}
+
+/*
+The two classes below work together
+to center the content vertically and
+horizontally on the screen.
+*/
+
+.wrapperOutside {
+   display: table;
+   width: 100vw;
+   height: 100vh;
+}
+
+.wrapperInside {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+/*
+The attributes below style the css
+dialog window, and content.
+*/
+
+.dialogContainer {
+  /* Form */
+  width: 1000px;
+  height: 500px;
+  /*
+  Drop Shadow
+  a. Horizontal shadow
+  b. Vertical shadow
+  c. Blur
+  d. Spread
+  e. Color
+  */
+  -webkit-box-shadow: 0 -2px 25px 0 rgba(0, 0, 0, 0.15), 0 13px 25px 0 rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
+  /* Internal padding */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  /* External padding */
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0; 
+}
+
+.dialogContent { 
+  /* Form */   
+  width: auto;
+  height: auto;
+  /* Corner radius */
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;    
+  /* Internal padding */
+  /* External padding */
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;     
+}
+
+.dialogContentTitle {
+  /* Form */  
+  background-color: #FFFFFF; 
+  /* Typography */  
+  font-size: 20px;  
+  text-align: left;
+}
+
+.dialogContentBody {
+  /* Internal padding */
+  padding-top: 14px;       
+}
+.btn-sign-up {
+    color: #000026;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 12px 25px;
+    line-height: 1em;
+}
+.btn-sign-up:hover {
+    color: #ffffff;   
+}
+.contact-us-tile {
+  padding-top: 30px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  background: #E6E6E6;
+}
+.green {
+  background: #00E8AA !important;
+}
+.blue {
+  background: #0000FF !important;
+  color: #ffffff;
+}
+.black {
+  background: #000026 !important;
+  color: #ffffff;
+}
+input, textarea {
+  background: #ffffff !important;
+  color: #000000;
+  padding-left: 10px !important;
+}
