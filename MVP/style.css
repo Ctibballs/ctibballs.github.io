@@ -59,6 +59,9 @@ nav .brand-logo {
 .how-it-works {
 	min-height: 400px;
 }
+.how-it-works p{
+	color: #000000;
+}
 .how-it-works hr {
 	width: 100px;
 }
@@ -118,4 +121,7 @@ input, textarea {
 }
 #employer-sign-up {
 	margin-top: 30px;
+}
+#send-icon {
+	padding: 5px 0px;
 }
