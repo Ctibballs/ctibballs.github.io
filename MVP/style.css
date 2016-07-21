@@ -32,7 +32,6 @@ nav {
 }
 nav .btn-sign-up {
 	margin: 1.5em !important;
-	text-transform: uppercase;
 }
 footer {
 	min-height: 400px;
@@ -47,6 +46,7 @@ footer a, p {
     border-radius: 25px;
     padding: 12px 25px;
     line-height: 1em;
+    text-transform: uppercase;
 }
 .btn-sign-up:hover {
     color: #ffffff;   
