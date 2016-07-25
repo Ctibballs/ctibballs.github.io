@@ -1,0 +1,118 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+@media only screen and (min-width: 993px) .container {
+    width: 70%;
+}
+@media only screen and (min-width: 601px) .container {
+    width: 85%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    }
+.seev-header {
+	min-height: 600px;
+	background: #0000FF;
+	color: #ffffff;
+	text-align: center;
+}
+.seev-btn {
+    color: #000026;
+    border-radius: 25px;
+    padding: 12px 25px;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    word-spacing: .3em;
+}
+.seev-green {
+	background: #00E8AA !important;
+}
+.seev-blue {
+	background: #0000FF !important;
+	color: #ffffff;
+}
+.seev-black {
+	background: #000026 !important;
+	color: #ffffff;
+}
+header img {
+	height: 300px;
+	margin: 0 5%;
+}
+header p {
+	max-width: 550px;
+	line-height: 2em;
+	font-size: 1.3em;
+	margin: 30px auto;
+}
+header h3 {
+	margin: 0;
+	padding: 7rem 0 1.168rem 0;
+	font-weight: 300;
+}
+header .mdl-grid, .mdl-cell {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.how-it-works hr {
+	width: 100px;
+	margin: 30px auto 20px;
+}
+.how-it-works {
+	min-height: 500px;
+	text-align: center;
+}
+.how-it-works-panel {
+	height: 180px;
+	margin-top: 70px; 
+}
+.seev-logo {
+	height: 30px;
+}
+.contact-us {
+	padding: 20px 0px 60px 0px; 
+	color: #ffffff;
+}
+.seev-btn-send {
+	border: none;
+	letter-spacing: .5px;
+	height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.mdl-textfield__input{
+	background: #ffffff !important;
+	height: 2em;
+	color: #000000;
+}
+.contact-us-tile span {
+	text-decoration: underline;
+}
+footer {
+	padding: 40px;
+}
+.seev-input {
+	padding-left: 5px;
+	vertical-align: middle;
+	box-shadow: none;
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.1rem;
+	margin: 5px;
+	box-sizing: border-box;
+	height: 40px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SeeV</title>
+
+	<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>	
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout">
+	<header class="mdl-layout__header seev-header">
+	  <div class="container">
+	    <div class="mdl-layout__header-row">
+	      <!-- Title -->
+	      <img src="images/Seev_1.0.svg" class="mdl-layout-title seev-logo" title="logo" id="seev-logo">
+	      <!-- Add spacer, to align navigation to the right -->
+	      <div class="mdl-layout-spacer"></div>
+	      <!-- Navigation -->
+	      <nav class="mdl-navigation">
+	        <a class="seev-btn seev-green" href="">Sign up</a>
+	      </nav>
+	    </div>
+	    <h3>Making employment easy.</h3>
+		<p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+		<a class="seev-btn seev-black">find out when we go live</a><br>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--6-col">
+				<img src="images/Male_01.svg" title="male" id="male">
+			</div>
+			<div class="mdl-cell mdl-cell--6-col">
+				<img src="images/Female_01.svg" title="female" id="female">
+			</div>
+		</div>
+	  </div>
+	</header>
+	<div class="how-it-works">
+			<div class="container">
+				<div class="mdl-grid">
+			      <div class="mdl-cell mdl-cell--4-col">
+			        <div class="how-it-works-panel seev-green">
+			        </div>
+			        <hr>
+			        <h3>Simple to use</h3>
+			        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+			      	</div>
+			      <div class="mdl-cell mdl-cell--4-col">
+			        <div class="how-it-works-panel seev-blue">
+			        </div>
+			        <hr>
+			        <h3>Save time</h3>
+			        <p>Spending time trying to organize a excel spreadsheet to know when your staff can work? With seev you can update a staff members availability in seconds. Or they can update it themselves using our webapp.</p>
+			      </div>
+			      <div class="mdl-cell mdl-cell--4-col">
+			        <div class="how-it-works-panel seev-black">
+			        </div>
+			        <hr>
+			        <h3>Timesheets</h3>
+			        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+			      </div>
+			    </div>
+			</div>
+	</div>
+	<div class="contact-us seev-blue">
+		<div class="container">
+			<div class="contact-us-tile mdl-cell--4-col">
+				<h4>Do you have any <span>questions?</span> <br>
+				Get in touch with us.</h4>
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+						<input class="seev-input mdl-cell--12-col" type="text" id="first-name" placeholder="First Name">
+					</div>
+					<div class="mdl-textfield mdl-js-textfield mdl-cell--6-col">
+						<input class="seev-input mdl-cell--12-col" type="text" id="last-name" placeholder="Last Name">
+					</div>
+					<div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
+						<input class="seev-input mdl-cell--12-col" type="email" id="email" placeholder="Email">
+					</div>
+					<div class="mdl-textfield mdl-js-textfield mdl-cell--12-col">
+						<textarea class="mdl-textfield__input" type="text" rows= "3" id="comments" ></textarea>
+						<label class="mdl-textfield__label" for="comments">Comment</label>
+					</div>
+	 				<button class="seev-btn-send mdl-cell--12-col seev-black" type="submit" name="action">SEND YOUR MESSAGE <i class="material-icons">trending_flat</i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer class="seev-black">
+			<div class="container">
+                <div class="mdl-grid">
+                    <div class="mdl-cell--4-col">
+                        <img src="images/Seev_1.0.svg" class="mdl-layout-title seev-logo" title="logo" id="seev-logo">
+                    </div>
+                    <div class="mdl-cell--4-col" id="jobseeker-sign-up">
+                        <a class="seev-btn seev-green" data-toggle="modal" data-target="#modal1">
+                            SIGN UP AS A JOBSEEKER
+						</a>
+                    </div>
+                    <div class="mdl-cell--4-col" id="employer-sign-up">
+                        <a class="seev-btn seev-blue" data-toggle="modal" data-target="#modal1">
+                            SIGN UP AS AN EMPLOYER
+						</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="mdl-grid">
+                    <div class="mdl-cell--4-col">
+                    </div>
+                    <div class="mdl-cell--4-col"> 
+                        <ul>
+                            <li>
+                                <a href="#">Jobseeker</a>
+                            </li>
+                            <li>
+                                <a href="#">Employer</a>
+                            </li>
+                            <li>
+                                <a href="#">Helping small business</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mdl-cell--4-col">
+                        <ul>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Seev API</a>
+                            </li>
+                            <li>
+                                <a href="#">Press</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="mdl-grid terms-conditions-row">
+                    <div class="mdl-cell--4-col">
+                        <p>2016 Seev Technology Inc.</p>
+                    </div>
+                    <div class="mdl-cell--4-col">
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div class="mdl-cell--4-col">
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>	
+		</footer>
+</div>
+</body>
+</html>
