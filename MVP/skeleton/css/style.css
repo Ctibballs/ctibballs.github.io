@@ -12,9 +12,6 @@ li {
 footer {
 	padding: 40px;
 }
-input[type="email"], input[type="text"], textarea, select, {
-	border-radius: 0px;
-}
 header p {
 	max-width: 550px;
 	line-height: 2em;
@@ -78,6 +75,9 @@ header img {
 	background: #000026;
 	color: #ffffff;
 }
+.seev-logo {
+	height: 30px;
+}
 #female {
 	margin-top: 30px;
 }
@@ -96,12 +96,31 @@ header img {
 	height: 180px;
 	margin-top: 70px; 
 }
-.seev-logo {
-	height: 30px;
-}
 .contact-us {
 	padding: 20px 0px 60px 0px; 
 	color: #ffffff;
+}
+.contact-us-tile span {
+	text-decoration: underline;
+}
+.seev-input {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.1rem;
+	margin: 5px 0px;
+	height: 40px;
+	border-radius: 0px;
+}
+#first-name {
+	width: 50%;
+}
+#last-name {
+	width: 50%;
+}
+#first-name, #last-name, #email {
+	border-radius: 0px;
+}
+.seev-input:nth-child(4) {
+	margin-bottom: 0px;
 }
 .seev-btn-send {
 	border: none;
@@ -113,21 +132,4 @@ header img {
     text-transform: uppercase;
     vertical-align: middle;
 }
-.contact-us-tile span {
-	text-decoration: underline;
-}
-.seev-input {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.1rem;
-	margin: 5px 0px;
-	height: 40px;
-}
-.seev-input:nth-child(4) {
-	margin-bottom: 0px;
-}
-#first-name {
-	width: 50%;
-}
-#last-name {
-	width: 50%;
-}
+
