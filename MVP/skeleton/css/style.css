@@ -1,0 +1,133 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+footer {
+	padding: 40px;
+}
+input[type="email"], input[type="text"], textarea, select, {
+	border-radius: 0px;
+}
+header p {
+	max-width: 550px;
+	line-height: 2em;
+	font-size: 1.3em;
+	margin: 30px auto;
+}
+header h3 {
+	margin: 0;
+	padding: 7rem 0 1.168rem 0;
+	font-weight: 300;
+}
+header img {
+	height: 300px;
+	margin: 0 5%;
+}
+@media only screen and (min-width: 993px) .container {
+    width: 70%;
+}
+@media only screen and (min-width: 601px) .container {
+    width: 85%;
+}
+@media only screen and (min-width: 750px) {
+	#male {
+		visibility: visible;
+		margin: 0 5%;
+	}
+	footer .seev-btn {
+		margin: 10px 0px;
+	}
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    }
+.seev-header {
+	height: auto;
+	background: #0000FF;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px; 
+}
+.seev-btn {
+    color: #000026;
+    border-radius: 25px;
+    padding: 12px 25px;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    word-spacing: .3em;
+}
+.seev-green {
+	background: #00E8AA;
+}
+.seev-blue {
+	background: #0000FF;
+	color: #ffffff;
+}
+.seev-black {
+	background: #000026;
+	color: #ffffff;
+}
+#female {
+	margin-top: 30px;
+}
+#male {
+	display: none;
+}
+.how-it-works hr {
+	width: 100px;
+	margin: 30px auto 20px;
+}
+.how-it-works {
+	min-height: 500px;
+	text-align: center;
+}
+.how-it-works-panel {
+	height: 180px;
+	margin-top: 70px; 
+}
+.seev-logo {
+	height: 30px;
+}
+.contact-us {
+	padding: 20px 0px 60px 0px; 
+	color: #ffffff;
+}
+.seev-btn-send {
+	border: none;
+	letter-spacing: .5px;
+	height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.contact-us-tile span {
+	text-decoration: underline;
+}
+.seev-input {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.1rem;
+	margin: 5px 0px;
+	height: 40px;
+}
+.seev-input:nth-child(4) {
+	margin-bottom: 0px;
+}
+#first-name {
+	width: 50%;
+}
+#last-name {
+	width: 50%;
+}
