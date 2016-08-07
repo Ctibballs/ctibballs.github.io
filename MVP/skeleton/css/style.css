@@ -25,12 +25,12 @@ header h3 {
 }
 header img {
 	height: 300px;
-	margin: 0 5%;
+	margin-top: 30px;
 }
 
-	footer .seev-btn {
+footer .seev-btn {
 		margin: 10px 0px;
-	}
+}
 }
 .container {
     margin: 0 auto;
@@ -124,23 +124,28 @@ header img {
 button i {
 	padding-top: 5px;
 }
-@media only screen and (min-width: 993px) {
-	.container {
-    width: 70%;
-	}
-}
 @media only screen and (min-width: 601px) {
 	.container {
     width: 85%;
 	}
 }
-@media only screen and (min-width: 750px) {
-	#male {
-		display: inherit;
-		margin: 0 5%;
-	}
 @media only screen and (min-width: 400px) {
 	#male {
 		display: none;
-		margin: 0 5%;
 	}
+	footer .seev-btn {
+		width: 100%;
+		margin-top: 30px;
+	}
+	footer .row:nth-child(-n+3) {
+		line-height: 50px
+	}
+}
+@media only screen and (min-width: 993px) {
+	.container {
+    width: 70%;
+	}
+	#male {
+		display: inline;
+	}
+}

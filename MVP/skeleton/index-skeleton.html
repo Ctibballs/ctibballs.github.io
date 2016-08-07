@@ -3,13 +3,15 @@
 <head>
 	<title>SeeV</title>
 
-	<link rel="stylesheet" href="
-https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/dialog.css" />
+		<!-- individual effect -->
+	<link rel="stylesheet" type="text/css" href="css/dialog-sally.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
+	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<header class="seev-header">
@@ -17,7 +19,7 @@ https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
 	    <div class="row">
 	      <img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo">
 	      <nav class="u-pull-right">
-	        <a class="seev-btn seev-green" href="">Sign up</a>
+	        <a class="seev-btn seev-green" id="sign-up" data-dialog="somedialog" class="trigger">Sign up</a>
 	      </nav>
 	    </div>
 	    <h3>Making employment easy.</h3>
@@ -133,5 +135,53 @@ https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
                 </div>
             </div>	
 		</footer>
+		<div id="somedialog" class="dialog">
+				<div class="dialog__overlay"><button class="action seev-btn seev-blue" data-dialog-close>Close</button></div>
+				<div class="dialog__content">
+					<div class="dialogContainer">
+	     				<aside class="u-pull-left">
+	    					<h5>Sign up to receive updates</h5>
+	    					<h4>Coming soon</h4>
+	    					<p>Seev creates tools to help make your job easier, sign up to our newsletter
+	    					to find out when we go live, and keep up to date.
+	    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    					consequat.
+	    					</p>
+	    				</aside>
+						<div class="contact-us-tile u-pull-right">
+							<div class="container row">
+								<form id="form1">
+									<input type="text" name="First-Name" class="one-half column" placeholder="First Name*" id="first-name" required>
+									<input type="text" name="Last-Name" class="one-half column" placeholder="Last Name*" id="last-name" required>
+									<input type="email" name="Email" class="u-full-width" placeholder="Email*" id="email" required>									
+									<input type="tel" name="Last-Name" class="one-half column" placeholder="Phone number" id="phone-number" maxlength="12">
+									<input type="text" name="Last-Name" class="one-half column" placeholder="Country*" id="Country" required>
+									<input type="text" name="Last-Name" class="one-half column" placeholder="City*" id="City" required>								
+									<input type="text" name="Last-Name" class="one-half column" placeholder="Company" id="Company">									
+					 				<button class="btn-sign-up waves-effect waves-light seev-blue right" type="submit" name="action">LET ME KNOW WHEN IT'S READY
+					 					<i class="material-icons right" id="send-icon">trending_flat</i>
+					 				</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div><button class="action" data-dialog-close>Close</button></div>
+				</div>
+			</div>
+				<script src="js/classie.js"></script>
+				<script src="js/dialogFx.js"></script>
+		<script>
+			(function() {
+
+				var dlgtrigger = document.querySelector( '[data-dialog]' ),
+					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+					dlg = new DialogFx( somedialog );
+
+				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+			})();
+		</script>
 </body>
 </html>
