@@ -2,13 +2,13 @@
 var modal = document.getElementById('sign-up');
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var a = document.getElementByClassName("sign-up");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = function() {
+a.onclick = function() {
     modal.style.display = "block";
 }
 

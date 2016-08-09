@@ -19,12 +19,12 @@
 	    <div class="row">
 	      <img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo">
 	      <nav class="u-pull-right">
-	        <a class="seev-btn seev-green" id="sign-up" data-dialog="somedialog" class="trigger">Sign up</a>
+	        <a class="seev-btn seev-green trigger sign-up" data-dialog="somedialog">Sign up</a>
 	      </nav>
 	    </div>
 	    <h3>Making employment easy.</h3>
 		<p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
-		<a class="seev-btn seev-black">find out when we go live</a><br>
+		<a class="seev-btn seev-black trigger sign-up" data-dialog="somedialog" >find out when we go live</a><br>
 		<div class="row">
 				<img src="images/Male_01.svg" title="male" id="male" class="one-half u-pull-left">
 				<img src="images/Female_01.svg" title="female" id="female" class="one-half u-pull-right">
@@ -60,7 +60,7 @@
 	</div>
 	<div class="contact-us seev-blue">
 		<div class="container">
-			<div class="contact-us-tile one-third column">
+			<div class="contact-us-tile one-half column">
 				<h4>Do you have any <span>questions?</span> <br>
 				Get in touch with us.</h4>
 				<form action="#">
@@ -80,12 +80,12 @@
                         <img src="images/Seev_1.0.svg" class="mdl-layout-title seev-logo" title="logo" id="seev-logo">
                     </div>
                     <div class="four columns" id="jobseeker-sign-up">
-                        <a class="seev-btn seev-green" data-toggle="modal" data-target="#modal1">
+                        <a class="seev-btn seev-green trigger sign-up" data-dialog="somedialog">
                             SIGN UP AS A JOBSEEKER
 						</a>
                     </div>
                     <div class="four columns" id="employer-sign-up">
-                        <a class="seev-btn seev-blue" data-toggle="modal" data-target="#modal1">
+                        <a class="seev-btn seev-blue trigger sign-up" data-dialog="somedialog">
                             SIGN UP AS AN EMPLOYER
 						</a>
                     </div>
@@ -136,10 +136,10 @@
             </div>	
 		</footer>
 		<div id="somedialog" class="dialog">
-				<div class="dialog__overlay"><button class="action seev-btn seev-blue" data-dialog-close>Close</button></div>
-				<div class="dialog__content">
+				<div class="dialog__overlay"></div>
+				<div class="dialog__content"><button class="action seev-btn seev-blue" data-dialog-close>Close</button>
 					<div class="dialogContainer">
-	     				<aside class="u-pull-left">
+	     				<aside class="">
 	    					<h5>Sign up to receive updates</h5>
 	    					<h4>Coming soon</h4>
 	    					<p>Seev creates tools to help make your job easier, sign up to our newsletter
@@ -150,8 +150,8 @@
 	    					consequat.
 	    					</p>
 	    				</aside>
-						<div class="contact-us-tile u-pull-right">
-							<div class="container row">
+						<div class="contact-us-tile">
+							<div class="sign-up-form">
 								<form id="form1">
 									<input type="text" name="First-Name" class="one-half column" placeholder="First Name*" id="first-name" required>
 									<input type="text" name="Last-Name" class="one-half column" placeholder="Last Name*" id="last-name" required>
@@ -167,7 +167,6 @@
 							</div>
 						</div>
 					</div>
-					<div><button class="action" data-dialog-close>Close</button></div>
 				</div>
 			</div>
 				<script src="js/classie.js"></script>

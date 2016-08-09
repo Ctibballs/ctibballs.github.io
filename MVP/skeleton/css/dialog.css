@@ -34,11 +34,9 @@
 
 .dialog__content {
 	width: 50%;
-	max-width: 560px;
+	max-width: 900px;
 	min-width: 290px;
 	background: #fff;
-	padding: 4em;
-	text-align: center;
 	position: relative;
 	z-index: 5;
 	opacity: 0;
@@ -47,12 +45,9 @@
 .dialog--open .dialog__content {
 	pointer-events: auto;
 }
-
-/* Content */
-.dialog h2 {
-	margin: 0;
-	font-weight: 400;
-	font-size: 2em;
-	padding: 0 0 2em;
-	margin: 0;
+.sign-up-form {
+	padding: 5%;
+}
+.dialog aside {
+	max-width: 400px;
 }

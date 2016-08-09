@@ -25,7 +25,6 @@ header h3 {
 }
 header img {
 	height: 300px;
-	margin-top: 30px;
 }
 
 footer .seev-btn {
@@ -95,7 +94,7 @@ footer .seev-btn {
 }
 .seev-input {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	margin: 5px 0px;
 	height: 40px;
 	border-radius: 0px;
@@ -117,21 +116,25 @@ footer .seev-btn {
 	height: 36px;
     line-height: 36px;
     outline: 0;
-    padding: 0 2rem;
     text-transform: uppercase;
     vertical-align: middle;
+}
+#somedialog aside {
+	background: #E6E6E6;
 }
 button i {
 	padding-top: 5px;
 }
-@media only screen and (min-width: 601px) {
-	.container {
-    width: 85%;
-	}
-}
+
 @media only screen and (min-width: 300px) {
+	.container {
+    width: 95%;
+	}
 	#male {
 		display: none;
+	}
+	header img {
+	margin-top: 0px;
 	}
 	footer .seev-btn {
 		width: 100%;
@@ -139,6 +142,17 @@ button i {
 	}
 	footer .row:nth-child(-n+3) {
 		line-height: 50px
+	}
+	footer .container {
+		padding: 0px;
+	}
+}
+@media only screen and (min-width: 601px) {
+	.container {
+    width: 85%;
+	}
+	header img {
+	margin-top: 30px;
 	}
 }
 @media only screen and (min-width: 993px) {
