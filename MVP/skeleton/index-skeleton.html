@@ -137,9 +137,11 @@
 		</footer>
 		<div id="somedialog" class="dialog">
 				<div class="dialog__overlay"></div>
-				<div class="dialog__content"><button class="action seev-btn seev-blue" data-dialog-close>Close</button>
-					<div class="dialogContainer">
-	     				<aside class="">
+				<div class="dialog__content">
+					<div class="container">
+						<button class="action seev-btn seev-blue" data-dialog-close>Close</button>
+					<div class="row">
+	     				<aside class="five column u-pull-left">
 	    					<h5>Sign up to receive updates</h5>
 	    					<h4>Coming soon</h4>
 	    					<p>Seev creates tools to help make your job easier, sign up to our newsletter
@@ -151,15 +153,39 @@
 	    					</p>
 	    				</aside>
 						<div class="contact-us-tile">
-							<div class="sign-up-form">
+							<div class="sign-up-form seven column u-pull-right">
 								<form id="form1">
-									<input type="text" name="First-Name" class="one-half column" placeholder="First Name*" id="first-name" required>
-									<input type="text" name="Last-Name" class="one-half column" placeholder="Last Name*" id="last-name" required>
-									<input type="email" name="Email" class="u-full-width" placeholder="Email*" id="email" required>									
-									<input type="tel" name="Last-Name" class="one-half column" placeholder="Phone number" id="phone-number" maxlength="12">
-									<input type="text" name="Last-Name" class="one-half column" placeholder="Country*" id="Country" required>
-									<input type="text" name="Last-Name" class="one-half column" placeholder="City*" id="City" required>								
-									<input type="text" name="Last-Name" class="one-half column" placeholder="Company" id="Company">									
+									<div class="row">
+										<div class="one-half column">
+											<input class="seev-input" type="text" name="First-Name" placeholder="First Name*" id="first-name" required>
+										</div>
+										<div class="one-half column">
+											<input class="seev-input" type="text" name="Last-Name" placeholder="Last Name*" id="last-name" required>
+										</div>
+									</div>
+									<div class="row">
+										<div>
+										<input class="u-full-width seev-input" type="email" name="Email" placeholder="Email*" id="email" required>
+										</div>
+									</div>
+									<div class="row">
+										<div class="one-half column u-pull-right">								
+											<input class="seev-input" type="tel" name="Phone-number" placeholder="Phone number" id="phone-number" maxlength="12">
+										</div>
+									</div>
+									<div class="row">
+										<div class="one-half column">
+											<input class="seev-input" type="text" name="Last-Name" placeholder="Country*" id="Country" required>
+										</div>
+										<div class="one-half column">
+											<input class="seev-input" type="text" name="Last-Name" placeholder="City*" id="City" required>
+										</div>
+									</div>
+									<div class="row">
+										<div class="one-half column">								
+											<input class="seev-input" type="text" name="Last-Name" placeholder="Company" id="Company">
+										</div>
+									</div>									
 					 				<button class="btn-sign-up waves-effect waves-light seev-blue right" type="submit" name="action">LET ME KNOW WHEN IT'S READY
 					 					<i class="material-icons right" id="send-icon">trending_flat</i>
 					 				</button>
@@ -167,6 +193,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 				<script src="js/classie.js"></script>

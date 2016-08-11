@@ -23,7 +23,7 @@ header h3 {
 	padding: 7rem 0 1.168rem 0;
 	font-weight: 300;
 }
-header img {
+#male, #female {
 	height: 300px;
 }
 
@@ -119,9 +119,6 @@ footer .seev-btn {
     text-transform: uppercase;
     vertical-align: middle;
 }
-#somedialog aside {
-	background: #E6E6E6;
-}
 button i {
 	padding-top: 5px;
 }
@@ -133,8 +130,8 @@ button i {
 	#male {
 		display: none;
 	}
-	header img {
-	margin-top: 0px;
+ 	#female {
+	margin-top: 10px;
 	}
 	footer .seev-btn {
 		width: 100%;
@@ -154,7 +151,7 @@ button i {
 	.container {
     width: 85%;
 	}
-	header img {
+	#male, #female {
 	margin-top: 30px;
 	}
 }
