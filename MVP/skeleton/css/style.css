@@ -95,13 +95,8 @@ footer .seev-btn {
 .seev-input {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5rem;
-	margin: 5px 0px;
 	height: 40px;
 	border-radius: 0px;
-}
-#first-name {
-}
-#last-name {
 }
 #first-name, #last-name, #email {
 	border-radius: 0px;
@@ -136,9 +131,6 @@ button i {
 	footer .seev-btn {
 		width: 100%;
 		margin-top: 30px;
-	}
-	footer .row:nth-child(-n+3) {
-		line-height: 50px
 	}
 	footer .container {
 		padding: 0px;
