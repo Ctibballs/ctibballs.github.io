@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById('sign-up');
+var modal = document.getElementById('somedialog');
 
 // Get the button that opens the modal
 var a = document.getElementByClassName("sign-up");
@@ -23,3 +23,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+$("sign-up").on('click', function(e){ 
+	modal.style.display = "block";
+});
