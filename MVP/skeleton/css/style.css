@@ -80,7 +80,7 @@ footer .seev-btn {
 }
 .how-it-works-panel {
 	height: 180px;
-	margin-top: 70px; 
+	margin-top: 70px;
 }
 .contact-us {
 	padding: 20px 0px 60px 0px; 
@@ -132,8 +132,8 @@ button i {
 	.row {
 		padding: 0 2%;
 	}
-	a {
-		max-width: 85%;
+	.seev-btn {
+		max-width: 50%;
 	}
 }
 @media only screen and (min-width: 601px) {
