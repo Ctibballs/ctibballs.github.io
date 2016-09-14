@@ -70,9 +70,6 @@ footer .seev-btn {
 #female {
 	margin-top: 30px;
 }
-#male {
-	
-}
 .how-it-works hr {
 	width: 100px;
 	margin: 30px auto 20px;
@@ -98,11 +95,8 @@ footer .seev-btn {
 	height: 40px;
 	border-radius: 0px;
 }
-#first-name, #last-name, #email {
+#first-name, #last-name, #email, #Phone-number, #company, #country {
 	border-radius: 0px;
-}
-.seev-input:nth-child(4) {
-	margin-bottom: 0px;
 }
 .seev-btn-send {
 	border: none;
@@ -137,6 +131,9 @@ button i {
 	}
 	.row {
 		padding: 0 2%;
+	}
+	a {
+		max-width: 85%;
 	}
 }
 @media only screen and (min-width: 601px) {
