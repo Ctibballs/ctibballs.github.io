@@ -93,9 +93,8 @@ footer .seev-btn {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5rem;
 	height: 40px;
-	border-radius: 0px;
 }
-#first-name, #last-name, #email, #Phone-number, #company, #country {
+#first-name, #last-name, #email, #phone-number, #company, #country {
 	border-radius: 0px;
 }
 .seev-btn-send {
@@ -132,10 +131,6 @@ button i {
 	.row {
 		padding: 0 2%;
 	}
-	.seev-btn {
-		max-width: 50%;
-		font-size: 1.5rem;
-	}
 }
 @media only screen and (min-width: 601px) {
 	.container {
@@ -154,4 +149,7 @@ button i {
 	#male {
 		display: inline;
 	}
+}
+#phone-number, #company {
+	margin-left: 0px;
 }
