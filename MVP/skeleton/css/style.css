@@ -80,7 +80,8 @@ footer .seev-btn {
 	padding-top: 70px;
 }
 .how-it-works-panel {
-	height: 180px;
+	height: 100%;
+	overflow: hidden;
 	max-width: 100%;
 
 }
