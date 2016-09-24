@@ -53,6 +53,9 @@ footer .seev-btn {
     font-weight: 600;
     word-spacing: .3em;
 }
+.white {
+	fill: #fff;
+}
 .seev-green {
 	background: #00E8AA;
 }
