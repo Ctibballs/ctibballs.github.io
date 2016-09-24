@@ -11,6 +11,7 @@ li {
 }
 footer {
 	padding: 40px;
+	vertical-align: middle;
 }
 header p {
 	max-width: 550px;
@@ -26,10 +27,6 @@ header h3 {
 }
 #header-sign-up {
 	margin-top: 1000px;
-}
-footer .seev-btn {
-		margin: 10px 0px;
-}
 }
 .container {
     margin: 0 auto;
@@ -52,9 +49,6 @@ footer .seev-btn {
     text-decoration: none;
     font-weight: 600;
     word-spacing: .3em;
-}
-.white {
-	fill: #fff;
 }
 .seev-green {
 	background: #00E8AA;
@@ -119,7 +113,11 @@ footer .seev-btn {
 button i {
 	padding-top: 5px;
 }
-
+.footer-icon {
+	margin: 0px 5px;
+	height: 16px;
+	padding-top: 10px;
+}
 @media only screen and (min-width: 320px) {
 	.container {
     width: 95%;

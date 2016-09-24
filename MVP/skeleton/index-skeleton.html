@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- individual effect -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -87,152 +88,12 @@
 	</div>
 	<footer class="seev-black">
 		<div class="container">
-		<img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo">
-		<img src="images/twitter.svg" class="seev-logo u-pull-right white" title="logo" id="seev-logo">
-		<img src="images/facebook.svg" class="seev-logo u-pull-right white" title="logo" id="seev-logo">
-		<img src="images/instagram.svg" class="seev-logo u-pull-right white" title="logo" id="seev-logo">
-		<img src="images/linkedin.svg" class="seev-logo u-pull-right white" title="logo" id="seev-logo">
+		<a href="#"><img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo"></a>
+		<a href="https://www.twitter.com/seev_au"><img src="images/twitter.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="twitter-logo"></a>
+		<a href="https://www.facebook.com/SeevAustralia"><img src="images/facebook.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="facebook-logo"></a>
+		<a href="https://www.instagram.com/seev_au"><img src="images/instagram.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="instagram-logo"></a>
+		<a href="https://www.linkedin.com/company/seev-australia"><img src="images/linkedin.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="linkedin-logo"></a>
 		</div>
 	</footer>
-	<!--
-	<footer class="seev-black">
-			<div class="container">
-                <div class="row">
-                    <div class="four columns">
-                        <img src="images/Seev_1.0.svg" class="mdl-layout-title seev-logo" title="logo" id="seev-logo">
-                    </div>
-                    <div class="four columns" id="jobseeker-sign-up">
-                        <a class="seev-btn seev-green trigger sign-up" data-dialog="somedialog">
-                            SIGN UP AS A JOBSEEKER
-						</a>
-                    </div>
-                    <div class="four columns" id="employer-sign-up">
-                        <a class="seev-btn seev-blue trigger sign-up" data-dialog="somedialog">
-                            SIGN UP AS AN EMPLOYER
-						</a>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="four columns">
-                    </div>
-                    <div class="four columns"> 
-                        <ul>
-                            <li>
-                                <a href="#">Jobseeker</a>
-                            </li>
-                            <li>
-                                <a href="#">Employer</a>
-                            </li>
-                            <li>
-                                <a href="#">Helping small business</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="four columns">
-                        <ul>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">Seev API</a>
-                            </li>
-                            <li>
-                                <a href="#">Press</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="row terms-conditions-row">
-                    <div class="four columns">
-                        <p>2016 Seev Technology Inc.</p>
-                    </div>
-                    <div class="four columns">
-                        <a href="#">Privacy</a>
-                    </div>
-                    <div class="four columns">
-                        <a href="#">Terms</a>
-                    </div>
-                </div>
-            </div>	
-		</footer>
-		<div id="somedialog" class="dialog">
-				<div class="dialog__overlay"></div>
-				<div class="dialog__content">
-					<div class="container">
-						<button class="action seev-btn seev-blue" data-dialog-close>Close</button>
-					<div class="row">
-	     				<aside class="five column u-pull-left">
-	    					<h5>Sign up to receive updates</h5>
-	    					<h4>Coming soon</h4>
-	    					<p>Seev creates tools to help make your job easier, sign up to our newsletter
-	    					to find out when we go live, and keep up to date.
-	    					</p>
-	    				</aside>
-						<div class="contact-us-tile">
-							<div class="sign-up-form seven column u-pull-right">
-								<form id="form1">
-									<div class="row">
-										<div class="one-half column">
-											<input class="seev-input" type="text" name="First-Name" placeholder="First Name*" id="first-name" required>
-										</div>
-										<div class="one-half column">
-											<input class="seev-input" type="text" name="Last-Name" placeholder="Last Name*" id="last-name" required>
-										</div>
-									</div>
-									<div class="row">
-										<div>
-										<input class="u-full-width seev-input" type="email" name="Email" placeholder="Email*" id="email" required>
-										</div>
-									</div>
-									<div class="row">
-										<div class="one-half column u-pull-right">								
-											<input class="seev-input" type="tel" name="Phone-number" placeholder="Phone number" id="phone-number" maxlength="12">
-										</div>
-									</div>
-									<div class="row">
-										<div class="one-half column">
-											<input class="seev-input" type="text" name="Last-Name" placeholder="Country*" id="Country" required>
-										</div>
-										<div class="one-half column">
-											<input class="seev-input" type="text" name="Last-Name" placeholder="City*" id="City" required>
-										</div>
-									</div>
-									<div class="row">
-										<div class="one-half column">								
-											<input class="seev-input" type="text" name="Last-Name" placeholder="Company" id="Company">
-										</div>
-									</div>									
-					 				<button class="btn-sign-up waves-effect waves-light seev-blue right" type="submit" name="action">LET ME KNOW WHEN IT'S READY
-					 					<i class="material-icons right" id="send-icon">trending_flat</i>
-					 				</button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-			<div id="sign-up-thank-you" class="dialog">
-					<div class="dialog__overlay"></div>
-					<div class="dialog__content">
-						<button class="action" data-dialog-close>Close</button>
-						<h2>Thanks for signing up to seev....</h2><br><h1>You'll hear from us shortly</h1>
-					</div>
-				<script src="js/classie.js"></script>
-				<script src="js/dialogFx.js"></script>
-		<script>
-			(function() {
-
-				var dlgtrigger = document.querySelector( '[data-dialog]' ),
-					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
-					dlg = new DialogFx( somedialog );
-
-				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
-
-			})();
-		</script>
-		-->
 </body>
 </html>
