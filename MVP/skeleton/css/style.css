@@ -23,9 +23,6 @@ header h3 {
 	padding: 7rem 0 1.168rem 0;
 	font-weight: 300;
 }
-#male, #female {
-	height: 300px;
-}
 
 footer .seev-btn {
 		margin: 10px 0px;
@@ -110,6 +107,9 @@ footer .seev-btn {
     text-transform: uppercase;
     vertical-align: middle;
 }
+#phone-number, #company {
+	margin-left: 0px;
+}
 button i {
 	padding-top: 5px;
 }
@@ -157,7 +157,4 @@ button i {
 	}
 }
 @media only screen and (min-width: 1100px) {
-
-#phone-number, #company {
-	margin-left: 0px;
 }
