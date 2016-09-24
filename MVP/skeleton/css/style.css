@@ -14,16 +14,19 @@ footer {
 }
 header p {
 	max-width: 550px;
-	line-height: 2em;
+	line-height: 1.4em;
 	font-size: 1.3em;
 	margin: 30px auto;
+	margin-bottom: 45px;
 }
 header h3 {
 	margin: 0;
 	padding: 7rem 0 1.168rem 0;
 	font-weight: 300;
 }
-
+#header-sign-up {
+	margin-top: 1000px;
+}
 footer .seev-btn {
 		margin: 10px 0px;
 }
@@ -72,7 +75,7 @@ footer .seev-btn {
 	margin: 30px auto 20px;
 }
 .how-it-works {
-	min-height: 500px;
+	min-height: 450px;
 	text-align: center;
 	padding-top: 70px;
 }
@@ -83,7 +86,7 @@ footer .seev-btn {
 
 }
 .contact-us {
-	padding: 20px 0px 60px 0px; 
+	padding: 70px 0px 60px 0px; 
 	color: #ffffff;
 }
 .contact-us-tile span {
@@ -157,4 +160,7 @@ button i {
 	}
 }
 @media only screen and (min-width: 1100px) {
+	header h3 {
+			font-size: 6rem;
+	}
 }
