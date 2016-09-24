@@ -114,18 +114,15 @@ button i {
 	padding-top: 5px;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 320px) {
 	.container {
     width: 95%;
 	}
 	#male {
-		display: none;
+	display: none;
 	}
  	#female {
-	margin-top: 10px;
-	float: none;
-	margin: auto;
-	width: 90%;
+	display: none;
 	}
 	footer .seev-btn {
 		width: 100%;
@@ -136,6 +133,9 @@ button i {
 	}
 	.row {
 		padding: 0 2%;
+	}
+	.seev-header {
+		height: 568px;
 	}
 }
 @media only screen and (min-width: 601px) {
