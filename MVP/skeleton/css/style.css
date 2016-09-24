@@ -123,6 +123,9 @@ button i {
 	}
  	#female {
 	margin-top: 10px;
+	float: none;
+	margin: auto;
+	width: 90%;
 	}
 	footer .seev-btn {
 		width: 100%;
