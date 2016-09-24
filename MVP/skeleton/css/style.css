@@ -77,10 +77,12 @@ footer .seev-btn {
 .how-it-works {
 	min-height: 500px;
 	text-align: center;
+	padding-top: 70px;
 }
 .how-it-works-panel {
 	height: 180px;
-	margin-top: 70px;
+	max-width: 100%;
+
 }
 .contact-us {
 	padding: 20px 0px 60px 0px; 
@@ -94,7 +96,7 @@ footer .seev-btn {
 	font-size: 1.5rem;
 	height: 40px;
 }
-#first-name, #last-name, #email, #phone-number, #company, #country {
+#first-name, #last-name, #email, #phone-number, #company, #country, #userType {
 	border-radius: 0px;
 }
 .seev-btn-send {
