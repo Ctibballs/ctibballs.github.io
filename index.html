@@ -8,7 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<script src="script.js"></script>
+
 </head>
 <body>
 	<header class="seev-header seev-blue">
@@ -21,7 +21,7 @@
 	    </div>
 	    <h3>Making employment easy.</h3>
 		<p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
-		<a class="seev-btn seev-black sign-up" href="#sign-up-form" id="header-sign-up">find out when we go live</a>
+		<a class="seev-btn seev-black sign-up" href="#sign-up-form">find out when we go live</a>
 		<div class="row">
 			<img src="images/Male_01.svg" title="male" id="male" class="one-half u-pull-left">
 			<img src="images/Female_01.svg" title="female" id="female" class="one-half u-pull-right">
@@ -62,11 +62,11 @@
 		<div class="container">
 			<div class="contact-us-tile one-half column">
 				<h3>Sign up to receive updates</h3><br>
-				<p>While we work towards releasing our first product, <br> sign up to our newsletter to find out first when we go live. 
-	    		</p>			
+				<p>While we work towards releasing our first product, <br> sign up to our newsletter to find out first when we go live.
+	    		</p>
 			</div>
 			<div class="contact-us-tile one-half column">
-				<form id="sign-up-form" action="https://formspree.io/chris@seev.com.au" method="POST" class="contact">
+				<form id="sign-up-form"  class="contact">
 					<input class="seev-input one-half column" type="text" name="first-name" id="first-name" placeholder="First name" required>
 					<input class="seev-input one-half column" type="text" name="last-name" id="last-name" placeholder="Last name" required>
 					<input class="seev-input u-full-width" type="email" name="_replyto" id="email" placeholder="Email" required>
@@ -92,5 +92,6 @@
 			<a href="https://www.linkedin.com/company/seev-australia"><img src="images/linkedin.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="linkedin-logo"></a>
 		</div>
 	</footer>
+	<script src="./js/app.js"></script>
 </body>
 </html>
