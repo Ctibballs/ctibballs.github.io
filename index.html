@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<title>SeeV</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="script.js"></script>
 </head>
 <body>
-	<div id="bg">
-
-		<div id="trigger">
-			<p>this is a test</p>
+	<header class="seev-header seev-blue">
+	  <div class="container">
+	    <div class="row">
+	      <img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo">
+	      <nav class="u-pull-right">
+	        <button class="seev-btn seev-green sign-up" href="#sign-up-form">Sign up</button>
+	      </nav>
+	    </div>
+	    <h3>Making employment easy.</h3>
+		<p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+		<a class="seev-btn seev-black sign-up" href="#sign-up-form" id="header-sign-up">find out when we go live</a>
+		<div class="row">
+			<img src="images/Male_01.svg" title="male" id="male" class="one-half u-pull-left">
+			<img src="images/Female_01.svg" title="female" id="female" class="one-half u-pull-right">
 		</div>
-		<div ="test">
-			<div id="columns" class="clearfix">
-				<div class="tile" class="clearfix">
-					<div class="circle" id="column1">
-						<h3 class="skillicon">html</h3>
-					</div>
-					<p>html</p>
-				</div>
-				<div class="tile" class="clearfix">
-					<div class="circle" id="column2">
-						<h3 class="skillicon">css</h3>
-					</div>
-				</div>
-				<div class="tile" class="clearfix">
-					<div class="circle" id="column3">
-						<h3 id="webdesign" class="skillicon">web- design</h3>
-					</div>
-				</div>
+	  </div>
+	</header>
+	<div class="how-it-works">
+		<div class="container">
+			<div class="row">
+		      <div class="four columns">
+		      	<div class="how-it-works-panel seev-green">
+		        	<img src="images/Seev_Homepage SVGs-01.svg" title="simple-icon" id="simple-icon">
+		        </div>
+		        <hr>
+		        <h3>Simple to use</h3>
+		        <p>Have trouble keeping track of which staff are available? Seev provides you with simple tools, so you’ll never be short staffed.</p>
+		      	</div>
+		      <div class="four columns">
+		      	<div class="how-it-works-panel seev-blue">
+		        	<img src="images/Seev_Homepage SVGs-02.svg" title="time-icon" id="time-icon">
+		        </div>
+		        <hr>
+		        <h3>Save time</h3>
+		        <p>With Seev you can update a staff members availability in seconds. Or they can update it themselves using our webapp.</p>
+		      </div>
+		      <div class="four columns">
+		      	<div class="how-it-works-panel seev-black">
+		        	<img src="images/Seev_Homepage SVGs-03.svg" title="other-icon" id="other-icon">
+		        </div>
+		        <hr>
+		        <h3>Innovation</h3>
+		        <p>Seev is constantly looking at new ways to improve your work experience, from finding work to managing staff.</p>
+		      </div>
+		    </div>
+		</div>
+	</div>
+	<div class="contact-us seev-blue">
+		<div class="container">
+			<div class="contact-us-tile one-half column">
+				<h3>Sign up to receive updates</h3><br>
+				<p>While we work towards releasing our first product, <br> sign up to our newsletter to find out first when we go live. 
+	    		</p>			
+			</div>
+			<div class="contact-us-tile one-half column">
+				<form id="sign-up-form" action="https://formspree.io/chris@seev.com.au" method="POST" class="contact">
+					<input class="seev-input one-half column" type="text" name="first-name" id="first-name" placeholder="First name" required>
+					<input class="seev-input one-half column" type="text" name="last-name" id="last-name" placeholder="Last name" required>
+					<input class="seev-input u-full-width" type="email" name="_replyto" id="email" placeholder="Email" required>
+					<input class="seev-input one-half column" type="tel" name="phone-number" id="phone-number" placeholder="Phone number">
+					<input class="seev-input one-half column" type="text" id="country" name="Country" id="Country" placeholder="Country" required>
+					<input class="seev-input one-half column" type="text" id="company" name="Company" id="Company" placeholder="Company">
+					<select class="seev-input one-half column" id="userType">
+						<option value="Option 1"disabled selected>Describe your role?</option>
+        				<option value="Option 2">Jobseeker</option>
+        				<option value="Option 3">Employer</option>
+      				</select>
+	 				<button type="submit" class="seev-btn seev-black u-pull-right" value="Send">SIGN UP</button>
+				</form>
 			</div>
 		</div>
-	</div>​
+	</div>
+	<footer class="seev-black">
+		<div class="container">
+			<a href="#"><img src="images/Seev_1.0.svg" class="seev-logo u-pull-left" title="logo" id="seev-logo"></a>
+			<a href="https://www.twitter.com/seev_au"><img src="images/twitter.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="twitter-logo"></a>
+			<a href="https://www.facebook.com/SeevAustralia"><img src="images/facebook.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="facebook-logo"></a>
+			<a href="https://www.instagram.com/seev_au"><img src="images/instagram.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="instagram-logo"></a>
+			<a href="https://www.linkedin.com/company/seev-australia"><img src="images/linkedin.svg" class="seev-logo u-pull-right footer-icon" title="logo" id="linkedin-logo"></a>
+		</div>
+	</footer>
 </body>
 </html>
