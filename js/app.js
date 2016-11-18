@@ -36,7 +36,7 @@ $(document).ready(function(){
       data: data,
       dataType: "json",
       success: function(){
-         document.getElementById('sign-up').innerHTML = document.getElementById('success-submit').innerHTML;
+        $('#sign-up').replaceWith('#success-submit');
       },
       error: function(){
         console.log('error');
