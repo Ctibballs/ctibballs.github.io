@@ -78,6 +78,7 @@ header h3 {
 .contact-us {
 	padding: 70px 0px 60px 0px; 
 	color: #ffffff;
+	min-height: 250px;
 }
 .seev-input {
 	font-family: 'Source Sans Pro', sans-serif;
