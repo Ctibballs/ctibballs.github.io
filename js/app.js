@@ -37,7 +37,7 @@ $(document).ready(function(){
       dataType: "json",
       success: function(){
         $('#sign-up').replaceWith('#success-submit');
-        $('#sign-up-message').css('display','none');
+        $('#sign-up-message').css('display','hidden');
       },
       error: function(){
         console.log('error');
