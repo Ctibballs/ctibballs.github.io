@@ -36,7 +36,7 @@ $(document).ready(function(){
       data: data,
       dataType: "json",
       success: function(){
-        console.log('success');
+         document.getElementById('test').innerHTML = document.getElementById('success-submit').innerHTML;
       },
       error: function(){
         console.log('error');
