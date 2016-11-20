@@ -41,7 +41,9 @@ $(document).ready(function(){
         $('#success-submit').show() 
       },
       error: function(){
-        console.log('error');
+        $('#sign-up').hide()
+        $('#error-message').hide()
+        $('#success-submit').show() 
       }
     }
   );
