@@ -36,7 +36,7 @@ $(document).ready(function(){
       data: data,
       dataType: "json",
       success: function(){
-        $('#sign-up').hide('#success-submit').show;
+        $('#sign-up').hide()('#success-submit').show();
         $('#sign-up-message').hide;
       },
       error: function(){
