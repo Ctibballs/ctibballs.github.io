@@ -36,8 +36,8 @@ $(document).ready(function(){
       data: data,
       dataType: "json",
       success: function(){
-        $('#sign-up').replaceWith('#success-submit');
-        $('#sign-up-message').css('display','hidden');
+        $('#sign-up').hide('#success-submit').show;
+        $('#sign-up-message').hide;
       },
       error: function(){
         console.log('error');
