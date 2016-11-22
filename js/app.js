@@ -36,12 +36,12 @@ $(document).ready(function(){
       data: data,
       dataType: "json",
       success: function(){
-        $('#sign-up').hide()
+        $('#sign-up-form').hide()
         $('#sign-up-message').hide()
         $('#success-submit').show() 
       },
       error: function(){
-        $('#sign-up').hide()
+        $('#sign-up-form').hide()
         $('#error-message').hide()
         $('#success-submit').show() 
       }
