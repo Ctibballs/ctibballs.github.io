@@ -14,7 +14,7 @@ $(function() {
 });
 
 $(document).ready(function(){
-  $('.seev-btn').on('click', function(event){
+  $('#sign-up-btn').on('click', function(event){
     event.preventDefault();
 
 
